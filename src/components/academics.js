@@ -6,8 +6,9 @@ export default function Academics(){
     return(
     <section id="academics">
         <nav>
-            <Link to="/academics/doneUnits" className='academics-tabs'>Attempted Units</Link>
-            <Link to="/academics/register" className='academics-tabs'>Register New Units</Link>
+            {/* <Link to="/dashboard/academics" className='academics-tabs'>Attempted Units</Link> */}
+            <Link to="/dashboard/academics/doneUnits" className='academics-tabs'>Attempted Units</Link>
+            <Link to="/dashboard/academics/register" className='academics-tabs'>Register New Units</Link>
             {/* <Link to="/academics/search" className='academics-tabs'>Searchbar</Link> */}
         </nav>
         <main>
