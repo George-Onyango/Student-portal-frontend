@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import {Link} from 'react-router-dom';
 
-
 function Login() {
   const [errorMessages, setErrorMessages] = useState({})
   const [isSubmitted, setIsSubmitted] = useState(false)
@@ -59,15 +58,16 @@ function Login() {
 
       <form onSubmit={handleSubmit} >
         <div className="input-container">
-          <label>Registration number </label>
+          <label>Registration number: </label>
           <input type="text"
             name="uname"
             placeholder="Type your Student Registration Number."
             required />
+            
           {renderErrorMessage("uname")}
         </div>
         <div className="input-container">
-          <label>Password </label>
+          <label>Password: </label>
           <input type="password"
             name="pass"
             placeholder="Type your password."
@@ -86,14 +86,21 @@ function Login() {
 
   return (
     <div className="app">
+      <div className="image">
+        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt='' width="600" height="400"></img>
+      </div>
+    
       <div className="login-form">
         <div className="title">Login to Student Portal</div>
-        {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
-      </div>
-
-      <Link to="/ForgotPassword">
+        {isSubmitted ? 
+        <div>User is successfully logged in</div> : renderForm}
+     
+     <Link to="/ForgotPassword">
         <p>Forgot your Password</p> 
         </Link>
+
+      </div>
+
     </div>
   )
 }
