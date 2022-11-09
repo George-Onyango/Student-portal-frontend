@@ -18,24 +18,18 @@ code {
   font-family: sans-serif;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  flex-direction: row;
+  justify-content: center;
+  flex-direction: column;
   gap: 20px;
   height: 100vh;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-image: url("https://images.unsplash.com/photo-1537202108838-e7072bad1927?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1946&q=80");
-
+  background-color: #f8f9fd;
 }
 
-input[type="text"] {
-  height: 25px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  margin-left: 10px;
-}
+input[type="text"],
 input[type="password"] {
   height: 25px;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  margin-left: 80px;
 }
 
 input[type="submit"] {
@@ -55,15 +49,12 @@ input[type="submit"]:hover {
 .button-container {
   display: flex;
   justify-content: center;
-  margin : 20px
 }
 
 .login-form {
   background-color: white;
   padding: 2rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height : 300px;
-  width : 500px;
 }
 
 .list-container {
@@ -76,16 +67,13 @@ input[type="submit"]:hover {
 }
 
 .title {
-  font-size: 35px;
-  font-weight: 700;
+  font-size: 25px;
   margin-bottom: 20px;
 }
 
 .input-container {
   display: flex;
-  flex-direction: row;
-  gap: 10px;
-  padding: 1rem;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
 }
-
-
