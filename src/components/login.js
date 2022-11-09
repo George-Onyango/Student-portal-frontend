@@ -97,6 +97,10 @@ function Login() {
         <p>Forgot your Password</p> 
         </Link>
 
+        <Link to="/signup">
+          <p>SignUp</p>
+          </Link>
+
       </div>
 
     </div>
