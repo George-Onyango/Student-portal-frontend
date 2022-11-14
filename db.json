@@ -1,0 +1,94 @@
+{
+    "students":
+        {
+            "student1": [
+                {
+                "Admission No": "345261",
+                "Names": "Daniel Masumbuko",
+                "ID Number": "34567892",
+                "Gender": "Male",
+                "Date of Birth": "12/12/1990",
+                "Courses": [
+                    {
+                        "id": 1,
+                        "Unit Code": "Sch 401",
+                        "Unit Name": "Spectroscopy",
+                        "Unit Category": "Industrial Chemistry",
+                        "Unit Review": "Passed",
+                        "Unit Grade": "C"
+                    },
+                    {
+                        "id": 2,
+                        "Unit Code": "SCH 205",
+                        "Unit Name": "Coordination Chemistry",
+                        "Unit Category": "Industrial Chemistry",
+                        "Unit Review": "Failed",
+                        "Unit Grade": "E"
+          
+                    },
+                    {
+                        "id": 3,
+                        "Unit Code": "Sch 301",
+                        "Unit Name": "Heterochemistry",
+                        "Unit Category": "Industrial Chemistry",
+                        "Unit Review": "Passed",
+                        "Unit Grade": "A"
+                    }
+                ]
+            }],
+          
+            "student2": [
+                {
+                "Admission No": "456879",
+                "Names": "Henry Mwenda",
+                "ID Number": "32569892",
+                "Gender": "Male",
+                "Date of Birth": "19/10/1994",
+                "Courses": [
+                    {
+                        "id": 4,
+                        "Unit Code": "STA 301",
+                        "Unit Name": "Probability and Statistics",
+                        "Unit Category": "Statisctics",
+                        "Unit Review": "Passed",
+                        "Unit Grade": "B"
+                    },
+                    {
+                        "id": 5,
+                        "Unit Code": "STA 403",
+                        "Unit Name": "Theory of Estimation",
+                        "Unit Category": "Statisctics",
+                        "Unit Review": "Passed",
+                        "Unit Grade": "A"
+                    }
+                ]
+            }],
+            "student3": [
+                {
+                "Admission No": "345280",
+                "Names": "Ashley Kariuki",
+                "ID Number": "3856880",
+                "Gender": "Female",
+                "Date of Birth": "23/02/2002",
+                "Courses": [
+                    {
+                        "id": 6,
+                        "Unit Code": "FNS 1111",
+                        "Unit Name": "Radio Chemistry",
+                        "Unit Category": "Nuclear science",
+                        "Unit Review": "Passed",
+                        "Unit Grade": "B"
+                    },
+                    {
+                        "id": 7,
+                        "Unit Code": "FNS 621",
+                        "Unit Name": "Particle detection",
+                        "Unit Category": "Nuclear science",
+                        "Unit Review": "Passed",
+                        "Unit Grade": "B"
+                    }
+                ]
+            }]
+          }
+}
+
